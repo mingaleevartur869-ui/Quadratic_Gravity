@@ -25,7 +25,7 @@ class Gravity7D(ItoEquation):
                 alpha,
                 beta1,
                 beta2,
-                (2.0 * beta2 * beta1 
+                (2.0 * beta**2 * beta1 
                  - 8.0 * beta * beta2 
                  - 4.0 * beta1**2.0 
                  + 24.0 * beta**4.0 
